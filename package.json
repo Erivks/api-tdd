@@ -2,6 +2,7 @@
   "name": "api-tdd",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "jest"
@@ -19,5 +20,9 @@
   "homepage": "https://github.com/Erivks/api-tdd#readme",
   "devDependencies": {
     "jest": "23.6.0"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "supertest": "^6.2.3"
   }
 }
